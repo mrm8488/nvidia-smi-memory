@@ -31,7 +31,7 @@ const drawtypes = {
     tiao: tiaoChars,
     bing: bingChars
 }
-const cmd = `nvidia-smi -q -d UTILIZATION | grep Memory | sed 's/[Gpu%: ]//g'`
+const cmd = `nvidia-smi -q -d UTILIZATION | grep 'Memory  '| sed 's/[Memory%: ]//g'`
 
 // This method is called when your extension is activated. Activation is
 // controlled by the activation events defined in package.json.
