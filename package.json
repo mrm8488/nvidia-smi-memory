@@ -24,7 +24,7 @@
             "properties": {
                 "nvidia-smi.drawtype": {
                     "type": "string",
-                    "default": "circle",
+                    "default": "emoji",
                     "description": "GPU indicator styles",
                     "enum": [
                         "circle",
@@ -39,7 +39,8 @@
                         "negativecircledigit",
                         "wan",
                         "tiao",
-                        "bing"
+                        "bing",
+                        "emoji"
                     ]
                 }
             }
