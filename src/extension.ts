@@ -16,6 +16,7 @@ const negativecircledigitChars = ["🄌", "➊", "➋", "➌", "➍", "➎", "�
 const wanChars = ["🀆", "🀈", "🀉", "🀊", "🀋", "🀌", "🀍", "🀎", "🀏"]
 const tiaoChars = ["🀆", "🀐", "🀑", "🀒", "🀓", "🀔", "🀕", "🀖", "🀗", "🀘"]
 const bingChars = ["🀆", "🀙", "🀚", "🀛", "🀜", "🀝", "🀞", "🀟", "🀠", "🀡"]
+const emojiChars = ["🌑️", "🌘", "🌗", "🤗"]
 const drawtypes = {
     circle: circleChars,
     bar: barChars,
@@ -29,7 +30,8 @@ const drawtypes = {
     negativecircledigit: negativecircledigitChars,
     wan: wanChars,
     tiao: tiaoChars,
-    bing: bingChars
+    bing: bingChars,
+    emoji: emojiChars
 }
 const cmd = `nvidia-smi -q -d UTILIZATION | grep 'Memory  '| sed 's/[Memory%: ]//g'`
 
